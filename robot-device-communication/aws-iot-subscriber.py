@@ -21,7 +21,7 @@ client.tls_set(ca_certs='./rootCA.pem', certfile='./certificate.pem.crt', keyfil
 client.tls_insecure_set(True)
 
 # Connect to the AWS IoT broker
-client.connect("a1cm3c34iajtv7-ats.iot.us-east-1.amazonaws.com", 8883, 60)
+client.connect("END POINT", 8883, 60)
 
 
 # Start the MQTT client loop to handle communication
