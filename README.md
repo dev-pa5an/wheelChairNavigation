@@ -1,2 +1,2 @@
 # wheelChairNavigation
-Autonomous navigation with Lidar 
+Autonomous navigation through computer vision and augmented reality 
