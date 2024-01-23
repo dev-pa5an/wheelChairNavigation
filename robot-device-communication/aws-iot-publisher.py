@@ -5,7 +5,7 @@ import json
 import _thread
 
 def on_connect(client, userdata, flags, rc):
-    print("Connected to AWS IoT: " + str(rc))
+    print("Connected to AWSIoT: " + str(rc))
 
 client = mqtt.Client()
 client.on_connect = on_connect
